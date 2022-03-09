@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_margin="15dp">
+
+    <Button
+        android:id="@+id/btnWeb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Abrir Web" />
+
+    <Button
+        android:id="@+id/btnContacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mostrar Contacto" />
+
+    <Button
+        android:id="@+id/btnMapa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Abrir Mapa" />
+
+    <Button
+        android:id="@+id/btnCamara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Abrir Cámara" />
+
+    <Button
+        android:id="@+id/btnMarcador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Abrir Marcador" />
+
+    <Button
+        android:id="@+id/btnMensaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Abrir SMS" />
+
+    <Button
+        android:id="@+id/btnLlamar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Llamar" />
+</LinearLayout>
